@@ -5,7 +5,7 @@
 void helloworld()
 {
 	acutPrintf(_T("\nHello world!"));
-	lesson5();
+	lesson6();
 }
 
 int showhello(struct resbuf *rb)

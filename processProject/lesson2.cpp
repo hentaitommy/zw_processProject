@@ -4,7 +4,7 @@
 #include <acestext.h>
 
 void lesson2() {
-	acutPrintf(_T(""));
+
 	auto pDb = acdbHostApplicationServices()->workingDatabase();
 
 	AcDbDictionary* pNOD = nullptr;
