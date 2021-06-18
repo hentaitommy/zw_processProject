@@ -200,6 +200,7 @@
     <ClCompile Include="lesson2.cpp" />
     <ClCompile Include="lesson3.cpp" />
     <ClCompile Include="lesson4.cpp" />
+    <ClCompile Include="lesson5.cpp" />
     <ClCompile Include="rxentrypoint.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -216,6 +217,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
+    <ClInclude Include="lessonGroup.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="helloworld.h" />
     <ClInclude Include="Resource.h" />

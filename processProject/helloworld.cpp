@@ -1,13 +1,11 @@
 #include "pch.h"
+#include "lessonGroup.h"
 
-void lesson2();
-void lesson3();
-void lesson4();
 
 void helloworld()
 {
 	acutPrintf(_T("\nHello world!"));
-	lesson4();
+	lesson5();
 }
 
 int showhello(struct resbuf *rb)

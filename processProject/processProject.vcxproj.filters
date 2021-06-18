@@ -36,6 +36,9 @@
     <ClCompile Include="lesson2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lesson5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="processProject.def">
@@ -62,6 +65,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="helloworld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lessonGroup.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
