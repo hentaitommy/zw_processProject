@@ -4,15 +4,16 @@
 #include <acestext.h>
 
 void lesson2() {
-
+	Acad::ErrorStatus es;
 	auto pDb = acdbHostApplicationServices()->workingDatabase();
 
 	AcDbDictionary* pNOD = nullptr;
-	acdbOpenAcDbObject((AcDbObject*&)pNOD, pDb->namedObjectsDictionaryId(), AcDb::kForWrite);
+	es = acdbOpenAcDbObject((AcDbObject*&)pNOD, pDb->namedObjectsDictionaryId(), AcDb::kForWrite);
+	acutPrintf(_T("\nError Code: %s"), acadErrorStatusText(es));
 	//获取命名词典的Id并打开
 	auto pDict = new AcDbDictionary();
 	AcDbObjectId dictId;
-	Acad::ErrorStatus es = pNOD->setAt(_T("MyDict"), pDict, dictId);
+	es = pNOD->setAt(_T("MyDict"), pDict, dictId);
 	acutPrintf(_T("\nError Code: %s"), acadErrorStatusText(es));
 
 	AcDbBlockTable* pBT = nullptr;

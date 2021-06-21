@@ -22,7 +22,7 @@ void lesson4() {
 	AcDbBlockTable* pBT = nullptr;
 	pDb->getBlockTable(pBT, AcDb::kForRead);//从数据库获取块表
 	if (pBT)//判断是否成功
-	{
+	{ 
 		AcDbBlockTableRecord* pBTR = nullptr;
 		pBT->getAt(ACDB_MODEL_SPACE, pBTR, AcDb::kForWrite);//从块表获取模型空间的块表记录 
 		pBT->close();//用完后马上关闭
