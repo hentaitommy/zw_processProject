@@ -42,7 +42,10 @@
     <ClCompile Include="lesson6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lesson7.cpp">
+    <ClCompile Include="finalDesign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson8.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

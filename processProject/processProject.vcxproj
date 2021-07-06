@@ -197,12 +197,13 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="finalDesign.cpp" />
     <ClCompile Include="lesson2.cpp" />
     <ClCompile Include="lesson3.cpp" />
     <ClCompile Include="lesson4.cpp" />
     <ClCompile Include="lesson5.cpp" />
     <ClCompile Include="lesson6.cpp" />
-    <ClCompile Include="lesson7.cpp" />
+    <ClCompile Include="lesson8.cpp" />
     <ClCompile Include="rxentrypoint.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

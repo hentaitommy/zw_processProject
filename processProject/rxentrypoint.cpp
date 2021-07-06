@@ -11,8 +11,8 @@
 void initapp()
 {
 	acedRegCmds->addCommand(cmd_group_name, _T("helloworld"), _T("helloworld"), ACRX_CMD_MODAL, helloworld);
-	acedRegCmds->addCommand(cmd_group_name, _T("zw_create"), _T("zw_create"), ACRX_CMD_MODAL, zw_create);
-	acedRegCmds->addCommand(cmd_group_name, _T("zw_paste"), _T("zw_paste"), ACRX_CMD_MODAL, zw_paste);
+	/*acedRegCmds->addCommand(cmd_group_name, _T("zw_create"), _T("zw_create"), ACRX_CMD_MODAL, zw_create);
+	acedRegCmds->addCommand(cmd_group_name, _T("zw_paste"), _T("zw_paste"), ACRX_CMD_MODAL, zw_paste);*/
 }
 
 void unloadapp()

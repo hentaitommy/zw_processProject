@@ -5,15 +5,16 @@
 void helloworld()
 {
 	acutPrintf(_T("\nHello world!"));
-	
-}
-void zw_create() {
-	lesson7_create_ent();
+	finalDesign();
 }
 
-void zw_paste() {
-	lesson7_copy_and_paste();
-}
+//void zw_create() {
+//	lesson7_create_ent();
+//}
+//
+//void zw_paste() {
+//	lesson7_copy_and_paste();
+//}
 
 int showhello(struct resbuf *rb)
 {
